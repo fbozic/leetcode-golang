@@ -1,21 +1,20 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
-func main() {
-	// fmt.Println(firstMissingPositive([]int{0, 10, 2, -10, -20})) // 1
-	// fmt.Println(firstMissingPositive([]int{1, 2, 3, 4, 5}))      // 6
-	// fmt.Println(firstMissingPositive([]int{1, 2, 4, 5}))         // 3
-	// fmt.Println(firstMissingPositive([]int{0, -1}))              // 1
-	// fmt.Println(firstMissingPositive([]int{1, 2, 0}))            // 3
-	// fmt.Println(firstMissingPositive([]int{1, 2, -1, 4}))        // 3
-	// fmt.Println(firstMissingPositive([]int{-1, -2, -60, 40, 4})) // 1
-	// fmt.Println(firstMissingPositive([]int{3, 4, -1, 1}))
-	fmt.Println(firstMissingPositive([]int{1, 1}))
-}
+// func main() {
+// 	// fmt.Println(firstMissingPositive([]int{0, 10, 2, -10, -20})) // 1
+// 	// fmt.Println(firstMissingPositive([]int{1, 2, 3, 4, 5}))      // 6
+// 	// fmt.Println(firstMissingPositive([]int{1, 2, 4, 5}))         // 3
+// 	// fmt.Println(firstMissingPositive([]int{0, -1}))              // 1
+// 	// fmt.Println(firstMissingPositive([]int{1, 2, 0}))            // 3
+// 	// fmt.Println(firstMissingPositive([]int{1, 2, -1, 4}))        // 3
+// 	// fmt.Println(firstMissingPositive([]int{-1, -2, -60, 40, 4})) // 1
+// 	// fmt.Println(firstMissingPositive([]int{3, 4, -1, 1}))
+// 	fmt.Println(firstMissingPositive([]int{1, 1}))
+// }
 
 func firstMissingPositive(nums []int) int {
 	nonPositiveCount := 0
